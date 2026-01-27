@@ -2,11 +2,13 @@ import { useState } from "react";
 import React from "react";
 
 const Data = () => {
-  let someData = 10;
+  let number = 10;
+  const [anotherNumber, setAnotherNumber] = useState(15);
   return (
     <div>
       <div>
-        <p>Valor: {someData} </p>
+        <p>Valor: {anotherNumber} </p>
+        <button onClick={() => setAnotherNumber(20)}>Mudar variavel</button>
       </div>
     </div>
   );

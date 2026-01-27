@@ -10,10 +10,9 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div>
+    <div className="App" style={{ paddingBottom: "500px" }}>
       <h1>Avancando em react</h1>
       <img src="/img.jpg" alt="" />
-
       <img src={night} alt="algo" />
       <Data></Data>
     </div>
