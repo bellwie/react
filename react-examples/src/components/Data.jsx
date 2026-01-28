@@ -1,8 +1,6 @@
 import { useState } from "react";
-import React from "react";
 
 const Data = () => {
-  let number = 10;
   const [anotherNumber, setAnotherNumber] = useState(15);
   return (
     <div>
